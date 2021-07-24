@@ -85,8 +85,11 @@ h1 {
 }
 
 .top-card {
+  display: flex;
+  justify-content: space-between;
   height: 135px;
   width: 100%;
+  color: rgb(255, 255, 255);
 }
 
 #card1 {
@@ -127,4 +130,9 @@ h1 {
 #card8 {
   background-image: url("images/photos/reading.jpg");
   background-size: contain;
+}
+
+.arrow-icon {
+  height: 50px;
+  width: 50px;
 }
