@@ -1,3 +1,13 @@
 * {
   font-family: 'Lato', sans-serif;
 }
+
+body {
+  height: 100%;
+  width: 100%;
+}
+
+nav {
+  background: rgb(84, 83, 83);
+  color: rgb(188, 188, 188);
+}
