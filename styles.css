@@ -78,6 +78,7 @@ h1 {
 
 .user-card {
   display: flex;
+  flex-direction: column;
   border: solid black 1px;
   height: 370px;
   width: 260px;
@@ -92,13 +93,17 @@ h1 {
   color: rgb(255, 255, 255);
 }
 
+.bottom-card {
+  background-image: url("images/icons/card-background.jpg");
+}
+
 #card1 {
   background-image: url("images/photos/frisbee.jpg");
   background-size: contain;
 }
 
 #card2 {
-  background-image: url("images/photos/guitar.jpg");
+  background-image: url("images/photos/record.jpg");
   background-size: contain;
 }
 
@@ -123,7 +128,7 @@ h1 {
 }
 
 #card7 {
-  background-image: url("images/photos/record.jpg");
+  background-image: url("images/photos/guitar.jpg");
   background-size: contain;
 }
 
@@ -135,4 +140,5 @@ h1 {
 .arrow-icon {
   height: 50px;
   width: 50px;
+  padding: 10px;
 }
