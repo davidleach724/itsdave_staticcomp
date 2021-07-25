@@ -61,6 +61,7 @@ h4 {
 
 .user-card-section {
   display: flex;
+  justify-content: space-evenly;
   flex-wrap: wrap;
 }
 
@@ -168,8 +169,22 @@ h1 {
 
 
 @media only screen and (max-width: 470px) {
-  .site-logo {
-    height: 5vh;
-    width: 5vw;
+  .user-card {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  }
+  .name-logo, .admin-menu {
+    display: none;
+  }
+
+  .user-menu {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 333px) {
+  nav {
+   justify-content: center;
   }
 }
