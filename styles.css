@@ -115,42 +115,42 @@ h1 {
 
 #card1 {
   background-image: url("images/photos/frisbee.jpg");
-  background-size: contain;
+  background-size: cover;
 }
 
 #card2 {
   background-image: url("images/photos/record.jpg");
-  background-size: contain;
+  background-size: cover;
 }
 
 #card3 {
   background-image: url("images/photos/kitchen.jpg");
-  background-size: contain;
+  background-size: cover;
 }
 
 #card4 {
   background-image: url("images/photos/piano.jpg");
-  background-size: contain;
+  background-size: cover;
 }
 
 #card5 {
   background-image: url("images/photos/thermometer.jpg");
-  background-size: contain;
+  background-size: cover;
 }
 
 #card6 {
   background-image: url("images/photos/producer.jpg");
-  background-size: contain;
+  background-size: cover;
 }
 
 #card7 {
   background-image: url("images/photos/guitar.jpg");
-  background-size: contain;
+  background-size: cover;
 }
 
 #card8 {
   background-image: url("images/photos/reading.jpg");
-  background-size: contain;
+  background-size: cover;
 }
 
 .arrow-icon {
@@ -167,6 +167,11 @@ h1 {
   color: rgb(58,185,255)
 }
 
+@media only screen and (max-width: 900px) {
+  nav {
+    justify-content: center;
+  }
+}
 
 @media only screen and (max-width: 470px) {
   .user-card {
@@ -174,7 +179,7 @@ h1 {
     align-items: center;
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   }
-  .name-logo, .admin-menu {
+  .name-logo{
     display: none;
   }
 
@@ -184,7 +189,7 @@ h1 {
 }
 
 @media only screen and (max-width: 333px) {
-  nav {
-   justify-content: center;
-  }
+  /* .admin-menu  {
+   display: none;
+  } */
 }
