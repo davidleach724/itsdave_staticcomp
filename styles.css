@@ -60,9 +60,9 @@ h4 {
 }
 
 .user-card-section {
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 270px 270px 270px 270px;
+  justify-content:space-evenly
 }
 
 h1 {
@@ -165,6 +165,14 @@ h1 {
 
 .card-attachment h2 {
   color: rgb(58,185,255)
+}
+
+@media only screen and (max-width: 1080px) {
+  .user-card-section {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
 }
 
 @media only screen and (max-width: 900px) {
