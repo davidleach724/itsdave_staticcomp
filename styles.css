@@ -25,6 +25,7 @@ nav {
 
 .user-menu {
   display: flex;
+  padding: 5px;
 }
 
 .user-shares, .user-music, .user-video {
@@ -48,6 +49,8 @@ h4 {
   justify-content: flex-end;
   align-items: center;
   padding-right: 15px;
+  font-size: smaller;
+  color: rgb(58,185,255)
 }
 
 .site-logo {
@@ -157,4 +160,16 @@ h1 {
 
 .secondary-text {
   font-size: smaller;
+}
+
+.card-attachment h2 {
+  color: rgb(58,185,255)
+}
+
+
+@media only screen and (max-width: 470px) {
+  .site-logo {
+    height: 5vh;
+    width: 5vw;
+  }
 }
