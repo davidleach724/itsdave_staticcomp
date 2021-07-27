@@ -3,6 +3,7 @@
 ### Description
 This project focuses on HTML/CSS design by recreating a webpage based on a static comp. There were creative liberties taken in lots of areas such as font, spacing, imagery, etc., however, the layout for both sites should be the same. The newly created site has no functionality, but it does implement different media queries for specialized views on various devices.
 
+[Check out the deployed site](https://davidleach724.github.io/itsdave_staticcomp/)
 
 ### It's Dave - The Created Website - Desktop View
 ![It's Dave - Finished Website Desktop View](https://user-images.githubusercontent.com/81774070/127040906-166203d1-abe5-40c6-bdf1-8a532d0eb008.png)
